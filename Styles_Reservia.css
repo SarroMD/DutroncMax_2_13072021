@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('police/Raleway-VariableFont_wght.ttf') format('ttf'),
+         url('police/Raleway-Italic-VariableFont_wght.ttf') format('ttf'),
+
+}
+
+.bloc_page
+{
+    width: 1700px;
+    margin: auto;
+}
+
+body
+{
+    font-family: 'Raleway-Regular', sans-serif;
+}
+
+p
+{
+    font-size: 0.75em;
+}
+
+/* -- Header / Nav ----------------------------------------------------------------------------------------- */
+
+header
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li 
+{
+    margin-right: 60px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+nav a:hover
+{
+    border-top: 2px solid #0065FC;
+    padding-top: 30px;
+    color: #0065FC;
+}
+
+.a1
+{
+    color: black;
+    opacity: 0.8;
+}
+
+/* -- Section 1 : Localisation -------------------------------------------------------------------------------- */
+
+.find h1
+{
+    margin-bottom: -6px;
+    font-size: 1.2em;
+}
+
+.find p 
+{
+    opacity: 0.8;
+}
+
+.search
+{
+    margin: 30px 0 30px 0;
+    display: flex;
+    border: 1px solid #F2F2F2;
+    width: 350px;
+    border-radius: 10px;
+}
+
+i.fa-map-marker-alt
+{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #777;
+    background: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+#localisation
+{
+    width: 210px;
+    height: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+button
+{
+    padding: 0 15px;
+    color: #fff;
+    background: #0065FC;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+/* -- Filtres --------------------------------------------------------------------------------------------------*/ 
+
+#filters
+{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#filters ul
+{
+    display: flex;
+    list-style-type: none; 
+}
+
+#filters li
+{
+    display: flex;
+    margin: 0 20px 0 -10px;
+    align-items: center;
+    padding-right: 20px;
+    border: 1px solid  lightgrey; 
+    border-radius: 20px;
+}
+
+#filters li:hover
+{
+    background: #DEEBFF;
+}
+
+#filters p
+{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#filters a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#filters a:hover
+{
+    color: #0065FC;
+}
+
+i.fa-money-bill-wave-alt
+{
+    width: 35px;
+    line-height: 35px;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+i.fa-child
+{
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+i.fa-heart
+{
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+i.fa-dog
+{
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+/* -- Info ---------------------------------------------------------------------------------------------------- */
+
+i.fa-info
+{
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #0065FC;
+    border-radius: 20px;
+    margin-right: 15px;
+    border: 1px solid lightgrey;
+}
