@@ -5,15 +5,21 @@
 
 }
 
-.bloc_page
+html
 {
-    width: 1700px;
-    margin: auto;
+    display: block;
 }
 
 body
 {
     font-family: 'Raleway-Regular', sans-serif;
+    display: block;
+}
+
+.bloc_page #section_two, #section_three
+{
+    max-width: 1190px;
+    margin: auto;
 }
 
 p
@@ -22,6 +28,12 @@ p
 }
 
 /* -- Header / Nav ----------------------------------------------------------------------------------------- */
+
+.header
+{
+    margin: auto;
+    max-width: 1170px;
+}
 
 header
 {
@@ -159,7 +171,6 @@ button
 {
     color: black;
     text-decoration: none;
-    font-weight: bold;
 }
 
 #filters a:hover
@@ -222,4 +233,106 @@ i.fa-info
     border-radius: 20px;
     margin-right: 15px;
     border: 1px solid lightgrey;
+}
+
+/* -- Section 2 : Hébergements -------------------------------------------------------------------------------- */
+
+#section_two
+{
+    display: flex;
+    max-width: 1170px;
+}
+
+#hébergements
+{
+    display: block;
+    max-width: 780px;
+    border-radius: 10px;
+    background: #f2f2f2;
+
+}
+
+#hébergements h2
+{
+    font-size: 1.2em;
+    margin: 20px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+#hébergements img
+{
+    height: 100%;
+    width: 190px;
+    max-height: 90px;
+    border-radius: 10px 10px 0 0;
+}
+
+img
+{
+    object-fit: cover;
+
+}
+
+#list_hébergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#list_hébergements .photo_héb
+{
+    padding: 5px;
+    background: #fff;
+}
+.photo_héb
+{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.description
+{
+    margin-left: 15px;
+}
+
+.photo_héb a
+{
+    color: black;
+    text-decoration: none;
+}
+
+h3
+{
+    margin-top: 5px;
+    font-size: 0.8em;
+    margin-bottom: -10px;
+}
+
+.photo_héb p
+{
+    font-size: 0.6em;
+}
+
+i.fa-star
+{
+    color: #0065FC;
+    font-size: 10px;
+}
+
+i.no-star
+{
+    color: #999;
+}
+
+.more a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+    margin: 20px;
+    font-weight: bold;
 }

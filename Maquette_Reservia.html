@@ -14,57 +14,158 @@
 
         <div class="bloc_page">
 
-            <header>
+            <div class="header">
 
-                <!-- Reservia || Hébergements || Activités || S'inscrire -->
-                <div id="logo">
-                   <img src="images\logo\Reservia.svg" alt="Logo Réservia">
-                </div>
+                <header>
 
-                <nav>
-                    <ul>
-                        <li><a class="a1" href="#section_two">Hébergements</a></li>
-                        <li><a class="a1" href="#section_three">Activités</a></li>
-                        <li><a id="a2" href="#"><strong>S'inscrire</strong></a></li>
-                    </ul>
-                </nav>
-
-            </header>
-
-                <!-- Section 1 Localisation-->
-                <section class="section_one">
-                    <div class="find">
-                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                        <p>En plein centre-ville ou en pleine nature</p>
+                    <!-- Reservia || Hébergements || Activités || S'inscrire -->
+                    <div id="logo">
+                       <img src="images\logo\Reservia.svg" alt="Logo Réservia">
                     </div>
 
-                    <div class="search">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <input type="search" name="localisation" id="localisation" placeholder="Marseille, France" size="30" maxlength="30" />
-                            <button type="submit">Rechercher</button>
-                    </div>
-
-                    <div id="filters">
-                        <p>Filtres :</p>
+                    <nav>
                         <ul>
-                            <li><i class="fas fa-money-bill-wave-alt"></i><a href="#">Économique</a></li>
-                            <li><i class="fas fa-child"></i><a href="#">Familial</a></li>
-                            <li><i class="fas fa-heart"></i><a href="#">Romantique</a></li>
-                            <li><i class="fas fa-dog"></i><a href="#">Animaux autorisés</a></li>
+                            <li><a class="a1" href="#section_two">Hébergements</a></li>
+                            <li><a class="a1" href="#section_three">Activités</a></li>
+                            <li><a id="a2" href="#"><strong>S'inscrire</strong></a></li>
                         </ul>
-                    </div>
+                    </nav>
 
-                    <div id="info">
-                        <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
-                    </div>
+                </header>
 
-                </section>
+                    <!-- Section 1 Localisation-->
+                    <section class="section_one">
+                        <div class="find">
+                            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                            <p>En plein centre-ville ou en pleine nature</p>
+                        </div>
+
+                        <div class="search">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <input type="search" name="localisation" id="localisation" placeholder="Marseille, France" size="30" maxlength="30" />
+                                <button type="submit">Rechercher</button>
+                        </div>
+
+                        <div id="filters">
+                            <p>Filtres :</p>
+                            <ul>
+                                <li><i class="fas fa-money-bill-wave-alt"></i><a href="#">Économique</a></li>
+                                <li><i class="fas fa-child"></i><a href="#">Familial</a></li>
+                                <li><i class="fas fa-heart"></i><a href="#">Romantique</a></li>
+                                <li><i class="fas fa-dog"></i><a href="#">Animaux autorisés</a></li>
+                            </ul>
+                        </div>
+
+                        <div id="info">
+                            <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
+                        </div>
+
+                    </section> 
+            </div>
 
                 <!-- Section 2 Hébergements à Marseille-->
                 <section id="section_two">
 
-                    <article id="hebergements">
-                    </article>
+                    <div id="hébergements">
+
+                        <h2>Hébergements à Marseille</h2>
+
+                        <article id="list_hébergements">
+
+                            <div class="photo_héb">
+                                <a href="#">
+                                    <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière Marseille">
+                                        <div class="description">
+                                            <h3>Auberge La Cannebière</h3>
+                                                <p>Nuit à partir de <strong>25 €</strong></p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star no-star"></i>
+                                        </div>
+                                </a>
+                            </div>
+
+                            <div class="photo_héb">
+                                <a href="#">
+                                    <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel Du Port Marseille">
+                                        <div class="description">
+                                            <h3>Hôtel Du Port</h3>
+                                                <p>Nuit à partir de <strong>52 €</strong></p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                        </div>
+                                </a>
+                            </div>
+
+                            <div class="photo_héb">
+                                <a href="#">
+                                    <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les Mouettes Marseille">
+                                        <div class="description">
+                                            <h3>Hôtel Les Mouettes</h3>
+                                                <p>Nuit à partir de <strong>76 €</strong></p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star no-star"></i>
+                                        </div>
+                                </a>
+                            </div>
+
+                            <div class="photo_héb">
+                                <a href="#">
+                                    <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel De La Mer Marseille">
+                                        <div class="description">
+                                            <h3>Hôtel De La Mer</h3>
+                                                <p>Nuit à partir de <strong>46 €</strong></p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star no-star"></i>
+                                                <i class="fas fa-star no-star"></i>
+                                        </div>
+                                </a>
+                            </div>
+
+                            <div class="photo_héb">
+                                <a href="#">
+                                    <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier Marseille">
+                                        <div class="description">
+                                            <h3>Auberge Le Panier</h3>
+                                                <p>Nuit à partir de <strong>23 €</strong></p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star no-star"></i>
+                                        </div>
+                                </a>
+                            </div>
+
+                            <div class="photo_héb">
+                                <a href="#">
+                                    <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina Marseille">
+                                        <div class="description">
+                                            <h3>Hôtel Chez Amina</h3>
+                                                <p>Nuit à partir de <strong>96 €</strong></p>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                        </div>
+                                </a>
+                            </div>
+
+                        </article>
+
+                        <p class="more"><a href="#">Afficher plus</a></p>
+                    </div>
 
                     <aside id="most_popular">
                     </aside>
@@ -79,9 +180,9 @@
 
                 </section>
 
-            <footer>
-                <!-- A propos || Nos hébergements || Assistance -->
-            </footer>
+        <footer>
+            <!-- A propos || Nos hébergements || Assistance -->
+        </footer>
 
         </div>    
 
