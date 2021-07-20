@@ -4,9 +4,8 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="Styles_Reservia.css" />
-        <title>Reservia.fr - Réservations de vacances en ligne !</title>
         <script src="https://kit.fontawesome.com/7a837c2ada.js" crossorigin="anonymous"></script>
-
+        <title>Reservia.fr - Réservations de vacances en ligne !</title>
 
     </head>
 
@@ -18,23 +17,31 @@
 
                 <header>
 
-                    <!-- Reservia || Hébergements || Activités || S'inscrire -->
-                    <div id="logo">
-                       <img src="images\logo\Reservia.svg" alt="Logo Réservia">
+                    <div class="logo_li">
+
+                        <!-- Reservia || Hébergements || Activités || S'inscrire -->
+                        <div id="logo">
+                           <img src="images\logo\Reservia.svg" alt="Logo Réservia">
+                        </div>
+
+                        <nav>
+
+                            <ul>
+                                <li><a class="a1" href="#section_two">Hébergements</a></li>
+                                <li><a class="a1" href="#section_three">Activités</a></li>
+                            </ul>
+
+                        </nav>
+
                     </div>
 
-                    <nav>
-                        <ul>
-                            <li><a class="a1" href="#section_two">Hébergements</a></li>
-                            <li><a class="a1" href="#section_three">Activités</a></li>
-                            <li><a id="a2" href="#"><strong>S'inscrire</strong></a></li>
-                        </ul>
-                    </nav>
+                        <p><a class="a2" href="#"><strong>S'inscrire</strong></a></p>
 
                 </header>
 
+            </div>
                     <!-- Section 1 Localisation-->
-                    <section class="section_one">
+                    <section id="section_one">
                         <div class="find">
                             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                             <p>En plein centre-ville ou en pleine nature</p>
@@ -49,10 +56,10 @@
                         <div id="filters">
                             <p>Filtres :</p>
                             <ul>
-                                <li><i class="fas fa-money-bill-wave-alt"></i><a href="#">Économique</a></li>
-                                <li><i class="fas fa-child"></i><a href="#">Familial</a></li>
-                                <li><i class="fas fa-heart"></i><a href="#">Romantique</a></li>
-                                <li><i class="fas fa-dog"></i><a href="#">Animaux autorisés</a></li>
+                                <a href="#"><li><i class="fas fa-money-bill-wave-alt"></i>Économique</li></a>
+                                <a href="#"><li><i class="fas fa-child"></i>Familial</li></a>
+                                <a href="#"><li><i class="fas fa-heart"></i>Romantique</li></a>
+                                <a href="#"><li><i class="fas fa-dog"></i>Animaux autorisés</li></a>
                             </ul>
                         </div>
 
@@ -61,7 +68,7 @@
                         </div>
 
                     </section> 
-            </div>
+            
 
                 <!-- Section 2 Hébergements à Marseille-->
                 <section id="section_two">
