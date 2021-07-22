@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url('police/static/Raleway-Bold.ttf') format('ttf'),
-
-}
-
 html
 {
     display: block;
@@ -633,7 +627,7 @@ footer
     .header
     {
         width: auto;
-
+        margin: auto;
     }
 
     .logo_li
