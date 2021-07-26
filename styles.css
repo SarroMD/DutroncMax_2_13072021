@@ -1,0 +1,1037 @@
+html
+{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+body
+{
+    display: block;
+    max-width: 1290px;
+    margin: auto;
+}
+
+p
+{
+    font-size: 0.75em;
+}
+
+/* -- Header / Nav ----------------------------------------------------------------------------------------- */
+
+.header
+{
+    margin: auto;
+    max-width: 1250px;
+}
+
+#section_one
+{
+    max-width: 1250px;
+    margin: auto;
+}
+
+header
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo_li
+{
+    display: flex;
+}
+
+header a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+header p
+{
+    font-size: 1em;
+    margin-right: 50px;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 800px;
+}
+
+nav li 
+{
+    margin-right: 30px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+nav a:hover
+{
+    border-top: 3px solid #0065FC;
+    padding-top: 33px;
+    color: #0065FC;
+}
+
+.a1
+{
+    color: black;
+    opacity: 0.8;
+}
+
+/* -- Section 1 : Localisation -------------------------------------------------------------------------------- */
+
+.find h1
+{
+    margin-bottom: -6px;
+    font-size: 1.2em;
+}
+
+.find p 
+{
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.search
+{
+    margin: 30px 0 30px 0;
+    display: flex;
+    border: 1px solid #F2F2F2;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.search p
+{
+    font-size: 1em;
+}
+
+i.fa-map-marker-alt
+{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    background: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+#localisation
+{
+    width: 210px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 1em;
+}
+
+i.fa-search
+{
+    display: none;
+}
+
+button
+{
+    padding: 0 15px;
+    color: #fff;
+    background: #0065FC;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+/* -- Filtres --------------------------------------------------------------------------------------------------*/ 
+
+#filters
+{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+#filters ul
+{
+    display: flex;
+    list-style-type: none; 
+}
+
+#filters li
+{
+    display: flex;
+    margin: 0 20px 0 -10px;
+    align-items: center;
+    padding-right: 20px;
+    border: 1px solid  lightgrey; 
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#filters li:hover
+{
+    background: #DEEBFF;
+}
+
+#filters p
+{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#filters a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#filters a:hover
+{
+    color: #0065FC;
+}
+
+i.fa-money-bill-wave-alt
+{
+    width: 40px;
+    line-height: 40px;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+i.fa-child
+{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+i.fa-heart
+{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+i.fa-dog
+{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+/* -- Info ---------------------------------------------------------------------------------------------------- */
+
+i.fa-info
+{
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #0065FC;
+    border-radius: 20px;
+    margin-right: 15px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+#info p
+{
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+
+/* -- Section 2 : Hébergements -------------------------------------------------------------------------------- */
+
+#section_two
+{
+    display: flex;
+    max-width: 1290px;
+    justify-content: space-between;
+}
+
+#hébergements
+{
+    display: block;
+    max-width: 850px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    padding-top: 10px;
+}
+
+#hébergements h2
+{
+    font-size: 1.2em;
+    margin: 20px 0 20px 30px;
+    font-weight: bold;
+}
+
+#hébergements img
+{
+    height: 100%;
+    width: 210px;
+    max-height: 90px;
+    border-radius: 10px 10px 0 0;
+}
+
+img
+{
+    object-fit: cover;
+
+}
+
+#list_hébergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.photo_héb
+{  
+    padding: 4px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.description
+{
+    margin-left: 10px;
+}
+
+.photo_héb a
+{
+    color: black;
+    text-decoration: none;
+}
+
+h3
+{
+    font-weight: bolder;
+    margin-top: 5px;
+    font-size: 1em;
+    margin-bottom: -5px;
+}
+
+.photo_héb p
+{
+    font-size: 0.8em;
+}
+
+i.fa-star
+{
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -4px;
+}
+
+i.no-star
+{
+    color: #999;
+}
+
+.more
+{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.more a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.more a:hover
+{
+    border-bottom: 1px solid black;
+}
+
+/* -- Les plus populaires ------------------------------------------------------------------------------------- */
+
+#most_popular
+{
+    display: block;
+    width: 400px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    padding-top: 10px;
+}
+
+#most_popular h2
+{
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 20px 0 20px 30px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+i.fa-chart-line
+{
+    display: flex;
+    margin: 20px 40px 20px 0;
+    font-weight: bold;
+}
+
+#most_popular img
+{
+    height: 110px;
+    width: 100%;
+    max-width: 100px;
+    border-radius: 10px 0 0 10px;
+}
+
+img
+{
+    object-fit: cover;
+
+}
+
+#popular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -30px;
+}
+
+#popular .photo_héb
+{
+    max-width: 250px;
+    padding: 4px;
+    background: #fff;
+}
+
+aside .description i
+{
+    padding-top: 15px;
+}
+
+#popular .photo_héb a
+{
+    display: flex;
+}
+
+#h2-i
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -- Activitées ---------------------------------------------------------------------------------------------- */
+
+#section_three
+{
+    display: block;
+    margin-top: 40px;
+}
+
+#activities
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#activities h3
+{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/* -- Photo Large Vieux Port et Calanques -- */
+
+.photo_héb_l
+{
+    height: 450px;
+    width: 280px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.photo_héb_l img
+{
+    height: 400px;
+    width: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.photo_héb_l a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* -- Photo en Duo -- */
+
+.duo
+{
+
+}
+
+/* -- Photo Medium Pomègues -- */
+
+.photo_héb_m
+{
+    height: 250px;
+    width: 280px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px #999;
+    margin-bottom: 50px;
+}
+
+.photo_héb_m img
+{
+    height: 200px;
+    width: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.photo_héb_m a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* -- Photo Small1 Frioul -- */
+
+.photo_héb_s1
+{
+    height: 150px;
+    width: 280px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.photo_héb_s1 img
+{
+    height: 100px;
+    width: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.photo_héb_s1 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* -- Photo Small2 Notre Dame et Longchamp -- */
+
+.photo_héb_s2
+{
+    height: 200px;
+    width: 280px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px #999;
+    margin-bottom: 50px;
+}
+
+.photo_héb_s2 img
+{
+    height: 150px;
+    width: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.photo_héb_s2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* -- Footer -------------------------------------------------------------------------------------------------- */
+
+footer
+{
+    display: block;
+    background: #f2f2f2;
+    width: 1290px;
+    max-width: 1290px;
+}
+
+#footer
+{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.about
+{
+    margin: 40px 100px 40px 0px;
+}
+
+.about h3
+{
+    margin-bottom: 10px;
+}
+
+.about ul
+{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.about li
+{
+    margin-bottom: 10px;
+}
+
+.about a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.about a:hover
+{
+    color: #0065FC;
+}
+
+/* -- Responsive Design ---------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 600px)
+{
+
+    /* -- Body / Nav -------------------------------------------------------- */
+
+    #logo
+    {
+        margin-left: 30px;
+    }
+
+    #logo img
+    {
+        height: 120%;
+    }
+
+    .logo_li
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header p
+    {
+        font-size: 1.3em;
+    }
+
+    nav ul
+    {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        font-size: 1.3em;
+    }
+
+    .a1
+    {
+        margin-right: 80px;
+    }
+
+    .a2
+    {
+        margin-left: -100px;
+    }
+
+    nav a
+    {
+        border-bottom: 3px solid #f2f2f2;
+        padding-bottom: 10px;
+    }
+
+    nav a:hover
+    {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 10px;
+        color: #0065FC;
+    }
+
+    /* -- Section 1 : Localisation en Responsive Design --------------------- */
+
+    #section_one
+    {
+        margin-left: 30px;
+    }
+
+    .find h1
+    {
+        font-size: 1.5em;
+        margin-right: 50px;
+    }
+
+    .find p
+    {
+        font-size: 1em;
+    }
+
+    .search
+    {
+        margin-left: 60px;
+        border: 1px solid #F2F2F2;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    i.fa-map-marker-alt
+    {
+
+        width: 50px;
+        line-height: 60px;
+        text-align: center;
+        color: black;
+        background: #F2F2F2;
+        border-radius: 10px 0 0 10px;
+        font-size: 1.2em;
+    }
+
+    #localisation
+    {
+        width: 300px;
+        height: 60px;
+        padding-left: 20px;
+        font-weight: bold;
+        border: none;
+        font-size: 1.2em;
+    }
+
+    button
+    {
+        padding: 0 15px;
+        color: #fff;
+        background: #0065FC;
+        border: none;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    i.fa-search
+    {
+        width: 20px;
+        display: flex;
+        font-size: 1.3em;
+    }
+
+
+    button p
+    {
+        display: none;
+    }
+
+    /* -- Filters en Responsive Design -------------------------------------- */
+
+    #filters
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #filters p
+    {
+        font-size: 1.2em;
+    }
+
+    #filters ul
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #filters li
+    {
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+
+    /* -- Info en Responsive Design --------------------- */
+
+
+
+    /* -- Section 2 : hébergements en Responsive Design --------------------- */
+
+    #section_two
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+    }
+
+    #hébergements
+    {
+        border-radius: 0px;
+        background: #fff;
+    }
+
+    #hébergements h2
+    {
+        font-size: 1.5em;
+        margin-bottom: 40px;
+    }
+
+    .more
+    {
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .photo_héb
+    {
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+        padding: 6px;
+    }
+
+    #hébergements img
+    {
+        height: 200px;
+        width: 400px;
+        max-height: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    h3
+    {
+        font-size: 1.2em;
+    }
+
+    .photo_héb p
+    {
+        font-size: 1em;
+    }
+
+    /* -- Les plus populaires en Responsive Design --------------------- */
+
+    #most_popular
+    {
+        width: auto;
+        border-radius: 0px;
+        padding-bottom: 20px;
+    }
+
+    #most_popular h2
+    {
+        margin-bottom: 40px;
+        font-size: 1.5em;
+    }
+
+    #popular .photo_héb
+    {
+        padding: 6px;
+        height: 200px;
+        width: 400px;
+        max-width: 400px;
+        margin-left: 30px;
+        border-radius: 20px;
+    }
+
+    #popular .photo_héb img
+    {
+        height: 200px;
+        width: 150px;
+        max-width: 150px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #popular .description
+    {
+        margin: 5px 0 0 15px;
+        max-width: 200px;
+    }
+
+    #popular i
+    {
+        margin-top: 60px;
+    }
+
+    i.fa-chart-line
+    {
+        font-size: 1.5em;
+    }
+
+    /* -- Section 3 : Activités en Responsive Design --------------------- */
+
+    #section_three
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    #section_three h2
+    {
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+
+    #activities
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .photo_héb_l
+    {
+        height: 250px;
+        width: 400px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px #999;
+        margin-bottom: 50px;
+        padding: 6px;
+    }
+
+    .photo_héb_l img
+    {
+        height: 200px;
+        width: 400px;
+        max-height: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .photo_héb_l a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -- Photo Medium Pomègues -- */
+
+    .photo_héb_m
+    {
+        height: 250px;
+        width: 400px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px #999;
+        padding: 6px;
+    }
+
+    .photo_héb_m img
+    {
+        height: 200px;
+        width: 400px;
+        max-height: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .photo_héb_m a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -- Photo Small1 Frioul -- */
+
+    .photo_héb_s1
+    {
+        height: 250px;
+        width: 400px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px #999;
+        margin-bottom: 50px;
+        padding: 6px;
+    }
+
+    .photo_héb_s1 img
+    {
+        height: 200px;
+        width: 400px;
+        max-height: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .photo_héb_s1 a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -- Photo Small2 Notre Dame et Longchamp -- */
+
+    .photo_héb_s2
+    {
+        height: 250px;
+        width: 400px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px #999;
+        padding: 6px;
+    }
+
+    .photo_héb_s2 img
+    {
+        height: 200px;
+        width: 400px;
+        max-height: 200px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .photo_héb_s2 a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -- Footer en Responsive Design --------------------- */
+
+    footer
+    {
+        width: auto;
+    }
+
+    #footer
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 80px;
+    }
+
+    .about
+    {
+        width: auto;
+    }
+}
