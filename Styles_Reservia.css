@@ -97,6 +97,7 @@ nav a:hover
 
 .find p 
 {
+    font-size: 0.9em;
     opacity: 0.8;
 }
 
@@ -119,7 +120,7 @@ i.fa-map-marker-alt
     width: 40px;
     line-height: 40px;
     text-align: center;
-    color: #777;
+    color: black;
     background: #F2F2F2;
     border-radius: 10px 0 0 10px;
 }
@@ -129,9 +130,10 @@ i.fa-map-marker-alt
     width: 210px;
     height: 40px;
     padding-top: 5px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-weight: bold;
     border: none;
+    font-size: 1em;
 }
 
 i.fa-search
@@ -199,19 +201,19 @@ button
 
 i.fa-money-bill-wave-alt
 {
-    width: 35px;
-    line-height: 35px;
+    width: 40px;
+    line-height: 40px;
     color: #0065FC;
     background: #DEEBFF;
     border-radius: 20px;
     text-align: center;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 i.fa-child
 {
-    width: 35px;
-    line-height: 35px;
+    width: 40px;
+    line-height: 40px;
     text-align: center;
     color: #0065FC;
     background: #DEEBFF;
@@ -221,8 +223,8 @@ i.fa-child
 
 i.fa-heart
 {
-    width: 35px;
-    line-height: 35px;
+    width: 40px;
+    line-height: 40px;
     text-align: center;
     color: #0065FC;
     background: #DEEBFF;
@@ -232,8 +234,8 @@ i.fa-heart
 
 i.fa-dog
 {
-    width: 35px;
-    line-height: 35px;
+    width: 40px;
+    line-height: 40px;
     text-align: center;
     color: #0065FC;
     background: #DEEBFF;
@@ -245,8 +247,8 @@ i.fa-dog
 
 i.fa-info
 {
-    width: 20px;
-    line-height: 20px;
+    width: 25px;
+    line-height: 25px;
     text-align: center;
     color: #0065FC;
     border-radius: 20px;
@@ -254,6 +256,13 @@ i.fa-info
     border: 1px solid lightgrey;
     margin-bottom: 20px;
 }
+
+#info p
+{
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
 
 /* -- Section 2 : Hébergements -------------------------------------------------------------------------------- */
 
@@ -571,6 +580,8 @@ footer
 {
     display: block;
     background: #f2f2f2;
+    width: 1290px;
+    max-width: 1290px;
 }
 
 #footer
@@ -628,7 +639,7 @@ footer
 
     #logo img
     {
-        height: 100%;
+        height: 120%;
     }
 
     .logo_li
@@ -639,7 +650,7 @@ footer
 
     header p
     {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     nav ul
@@ -647,7 +658,7 @@ footer
         margin-top: 40px;
         margin-bottom: 20px;
         margin-left: 80px;
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     .a1
@@ -657,7 +668,7 @@ footer
 
     .a2
     {
-        margin-left: -80px;
+        margin-left: -100px;
     }
 
     nav a
@@ -681,6 +692,17 @@ footer
         margin-left: 30px;
     }
 
+    .find h1
+    {
+        font-size: 1.5em;
+        margin-right: 50px;
+    }
+
+    .find p
+    {
+        font-size: 1em;
+    }
+
     .search
     {
         margin-left: 60px;
@@ -693,7 +715,7 @@ footer
     {
 
         width: 50px;
-        line-height: 50px;
+        line-height: 60px;
         text-align: center;
         color: black;
         background: #F2F2F2;
@@ -704,11 +726,11 @@ footer
     #localisation
     {
         width: 300px;
-        height: 50px;
+        height: 60px;
         padding-left: 20px;
         font-weight: bold;
         border: none;
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     button
@@ -741,6 +763,11 @@ footer
         flex-wrap: wrap;
     }
 
+    #filters p
+    {
+        font-size: 1.2em;
+    }
+
     #filters ul
     {
         display: flex;
@@ -752,6 +779,7 @@ footer
     #filters li
     {
         margin-bottom: 15px;
+        font-size: 1.2em;
     }
 
     /* -- Info en Responsive Design --------------------- */
@@ -775,7 +803,8 @@ footer
 
     #hébergements h2
     {
-        margin-bottom: 30px;
+        font-size: 1.5em;
+        margin-bottom: 40px;
     }
 
     .more
@@ -821,7 +850,8 @@ footer
 
     #most_popular h2
     {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+        font-size: 1.5em;
     }
 
     #popular .photo_héb
@@ -853,6 +883,10 @@ footer
         margin-top: 60px;
     }
 
+    i.fa-chart-line
+    {
+        font-size: 1.5em;
+    }
 
     /* -- Section 3 : Activités en Responsive Design --------------------- */
 
@@ -866,7 +900,7 @@ footer
     #section_three h2
     {
         margin-left: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     #activities
