@@ -632,6 +632,16 @@ footer
 
     /* -- Body / Nav -------------------------------------------------------- */
 
+    html
+    {
+        width: auto;
+    }
+
+    body
+    {
+        width: auto;
+    }
+
     #logo
     {
         margin-left: 30px;
@@ -792,11 +802,12 @@ footer
     {
         display: flex;
         flex-direction: column-reverse;
-        width: auto;
     }
 
     #hébergements
     {
+        width: 595px;
+        max-width: 595px;
         border-radius: 0px;
         background: #fff;
     }
@@ -819,6 +830,7 @@ footer
         width: 400px;
         border-radius: 20px;
         padding: 6px;
+        max-width: 595px;
     }
 
     #hébergements img
@@ -843,9 +855,11 @@ footer
 
     #most_popular
     {
-        width: auto;
+        width: 595px;
+        max-width: 595px;
         border-radius: 0px;
         padding-bottom: 20px;
+
     }
 
     #most_popular h2
@@ -1018,7 +1032,7 @@ footer
 
     footer
     {
-        width: auto;
+        max-width: 595px;
     }
 
     #footer
@@ -1028,6 +1042,7 @@ footer
         flex-direction: column;
         justify-content: flex-start;
         margin-left: 80px;
+        max-width: 600px;
     }
 
     .about
@@ -1056,14 +1071,14 @@ footer
 
     .header
     {
-        margin: auto;
-        max-width: 950px;
+        margin-left: 30px;
+        max-width: 1024px;
     }
 
     #section_one
     {
-        max-width: 950px;
-        margin: auto;
+        margin-left: 30px;
+        max-width: 1024px;
     }
 
     header
