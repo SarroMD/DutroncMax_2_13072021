@@ -9,6 +9,7 @@ body
     display: block;
     max-width: 1290px;
     margin: auto;
+    width: 1290px
 }
 
 p
@@ -760,7 +761,7 @@ footer
     }
 
 
-    button p
+.rchr
     {
         display: none;
     }
